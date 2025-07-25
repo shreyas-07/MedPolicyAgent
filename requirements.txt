@@ -1,79 +1,16 @@
 
 
-llm_backend.py - Clean LLM Backend
-Code 
-
-templates/index.html - Beautiful Frontend
-Interactive artifact 
-
-
-
-Continue
-
-Edit
-
-
-Interactive artifact ∙ Version 2 
-Now let me create a simple requirements file and setup instructions:
-
-
-requirements.txt
-Code 
-
-README.md - Setup Instructions
-Document 
-Perfect! I've created a clean separation between the LLM backend and the beautiful HTML frontend. Here's what I've built:
-
-🏗️ Clean Architecture
-1. Backend (llm_backend.py)
-Pure LLM functionality - Only handles AI/database operations
-Flask REST API - Clean endpoints for the frontend
-No UI dependencies - Just OpenAI, ChromaDB, and Flask
-Simple & focused - Does one thing well
-2. Frontend (templates/index.html)
-Exact design match - Uses your beautiful HTML/CSS/JS
-Standalone file - All styling and animations included
-Real API integration - Connects to backend via REST calls
-Live statistics - Real-time data from your database
-🚀 How It Works
-Start Backend: python llm_backend.py
-Open Browser: Go to http://127.0.0.1:7860
-Beautiful Interface: Your exact design with real LLM power
-Live Data: Real statistics from your ChromaDB
-✨ Key Features
-🎨 Beautiful UI - Your exact design with animations
-🤖 Real AI - GPT-4o-mini processing your queries
-📊 Live Stats - Real document counts from ChromaDB
-🔍 Smart Search - Vector search with relevance scoring
-📱 Responsive - Works on mobile and desktop
-🛠️ Setup is Simple
-bash
-# 1. Install dependencies
-pip install -r requirements.txt
-
-# 2. Set your OpenAI key
-export OPENAI_API_KEY=sk-proj-your-key-here
-
-# 3. Create templates folder
-mkdir templates
-
-# 4. Save the HTML file as templates/index.html
-
-# 5. Run the backend
-python llm_backend.py
-The backend serves your beautiful HTML and provides all the AI functionality through clean API endpoints. No more Gradio - just your gorgeous interface connected to real LLM power!
 
 
 
 
 
-
-
-
+fastapi
+uvicorn
+requests
 flask==2.3.3
 flask-cors==4.0.0
 openai==1.3.0
 chromadb==0.4.15
 python-dotenv==1.0.0
-cat requirements.txt
 gunicorn==21.2.0
