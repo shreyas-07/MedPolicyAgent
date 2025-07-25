@@ -1,0 +1,29 @@
+{
+  "scrapers": {
+    "humana_claims": {
+      "enabled": true,
+      "output_folder": "humana_policies/claims_payment_policies",
+      "schedule": "daily",
+      "schedule_time": "02:00"
+    },
+    "humana_policies": {
+      "enabled": true,
+      "output_folder": "humana_policies",
+      "schedule": "weekly",
+      "schedule_time": "03:00"
+    },
+    "uhc_policies": {
+      "enabled": true,
+      "output_folder": "uhc_policies",
+      "schedule": "weekly",
+      "schedule_time": "04:00"
+    }
+  },
+  "agent": {
+    "max_concurrent_jobs": 2,
+    "retry_attempts": 3,
+    "retry_delay": 300,
+    "auto_schedule": true,
+    "notification_webhook": null
+  }
+}

@@ -1,0 +1,48 @@
+# === Python Cache ===
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# === Virtual Environments ===
+.venv/
+env/
+venv/
+
+# === Environment Variables ===
+.env
+.env.*
+!.env.example
+
+# === OS & Editor Files ===
+.DS_Store
+Thumbs.db
+*.swp
+.idea/
+.vscode/
+
+# === Logs & Temp ===
+*.log
+*.tmp
+
+# === Vector DB & Cache ===
+chroma_db/
+uhc_vector_db/
+pdf_cache/
+flagged/
+
+# === Policy Files (Generated) ===
+humana_policies/
+uhc_policies/
+humana_policies_changes.json
+humana_policies_metadata.json
+
+# === Large Data Artifacts ===
+*.db
+*.sqlite
+*.parquet
+
+# === Node/Frontend (if later used) ===
+node_modules/
+dist/
+build/
