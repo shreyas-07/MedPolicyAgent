@@ -12,7 +12,7 @@ Continue
 
 Edit
 
-templates/index.html - Beautiful Frontend
+
 Interactive artifact ∙ Version 2 
 Now let me create a simple requirements file and setup instructions:
 
